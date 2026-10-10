@@ -1,0 +1,5 @@
+{
+    "crawl4aiBaseUrl": "http://172.25.55.19:11235",
+    "crawl4aiApiToken": "$CRAWL4AI_API_TOKEN",
+    "ssrf": { "allowRanges": ["172.25.55.19/32"] }
+}

@@ -1,0 +1,16 @@
+{
+  "defaultProvider": "mdsvc",
+  "defaultModel": "qwen3.5:2b",
+  "defaultThinkingLevel": "off",
+  "compactionThreshold": 0.75,
+  "defaultProjectTrust": "always",
+  "lastChangelogVersion": "1.1.0",
+  "theme": "light",
+  "packages": [
+    "npm:pi-web-access",
+    "npm:pi-mcp-adapter"
+  ],
+  "extensions": [
+    "-builtin:mcp"
+  ]
+}
