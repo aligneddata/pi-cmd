@@ -8,27 +8,27 @@
       "models": [
         {
           "id": "qwen3.5:9b",
-          "name": "QW",
-          "contextWindow": 16384,
-          "maxTokens": 16384,
+          "name": "QW9",
+          "contextWindow": 4096,
+          "maxTokens": 4096,
           "compat": {
             "supportsThinkingTokenBudget": false
           }
         },
         {
           "id": "qwen3.5:4b",
-          "name": "QW",
-          "contextWindow": 16384,
-          "maxTokens": 16384,
+          "name": "QW4",
+          "contextWindow": 4096,
+          "maxTokens": 4096,
           "compat": {
             "supportsThinkingTokenBudget": false
           }
         },
         {
           "id": "qwen3.5:2b",
-          "name": "QW",
-          "contextWindow": 16384,
-          "maxTokens": 16384,
+          "name": "QW2",
+          "contextWindow": 4096,
+          "maxTokens": 4096,
           "compat": {
             "supportsThinkingTokenBudget": false
           }
