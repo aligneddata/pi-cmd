@@ -34,6 +34,50 @@
           }
         }
       ]
+    },
+    "legnam": {
+      "baseUrl": "http://192.168.1.128:11434/v1",
+      "api": "openai-completions",
+      "apiKey": "ollama",
+      "apiType": "openai",
+      "models": [
+        {
+          "id": "glm-4.7-flash:q4_K_M",
+          "name": "GLM 4.7 Flash",
+          "contextWindow": 32768,
+          "maxTokens": 32768,
+          "compat": {
+            "supportsThinkingTokenBudget": false
+          }
+        },
+        {
+          "id": "qwen3.8:27b",
+          "name": "Qwen 3.8 27B",
+          "contextWindow": 32768,
+          "maxTokens": 32768,
+          "compat": {
+            "supportsThinkingTokenBudget": false
+          }
+        },
+        {
+          "id": "qw27b_32k:latest",
+          "name": "Qwen 3.8 27B 32K",
+          "contextWindow": 32768,
+          "maxTokens": 32768,
+          "compat": {
+            "supportsThinkingTokenBudget": false
+          }
+        },
+        {
+          "id": "glm47_32k:latest",
+          "name": "GLM 32K",
+          "contextWindow": 32768,
+          "maxTokens": 32768,
+          "compat": {
+            "supportsThinkingTokenBudget": false
+          }
+        }
+      ]
     }
   }
 }
