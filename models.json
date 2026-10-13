@@ -25,6 +25,15 @@
           }
         },
         {
+          "id": "qwen3.5:0.8b",
+          "name": "QW08",
+          "contextWindow": 4096,
+          "maxTokens": 4096,
+          "compat": {
+            "supportsThinkingTokenBudget": false
+          }
+        },
+        {
           "id": "qwen3.5:2b",
           "name": "QW2",
           "contextWindow": 4096,
